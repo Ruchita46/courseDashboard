@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "thumbnail": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+        "semester": "Spring 2023",
+        "title": "Introduction to Programming",
+        "code": "IT-101-OL1",
+        "status": "Open",
+        "isFavorite": false,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 2,
+        "thumbnail": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+        "semester": "Fall 2023",
+        "title": "Data Science Fundamentals",
+        "code": "DS-201-OL2",
+        "status": "Closed",
+        "isFavorite": true,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 3,
+        "thumbnail": "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg",
+        "semester": "Winter 2022",
+        "title": "Web Development Basics",
+        "code": "WD-101-OL3",
+        "status": "Open",
+        "isFavorite": false,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 4,
+        "thumbnail": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg",
+        "semester": "Spring 2022",
+        "title": "Cybersecurity Principles",
+        "code": "CS-301-OL4",
+        "status": "Closed",
+        "isFavorite": true,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 5,
+        "thumbnail": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+        "semester": "Summer 2023",
+        "title": "Machine Learning Basics",
+        "code": "AI-101-OL5",
+        "status": "Open",
+        "isFavorite": false,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 6,
+        "thumbnail": "https://images.pexels.com/photos/3183171/pexels-photo-3183171.jpeg",
+        "semester": "Fall 2022",
+        "title": "Cloud Computing Essentials",
+        "code": "CC-102-OL6",
+        "status": "Open",
+        "isFavorite": true,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 7,
+        "thumbnail": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+        "semester": "Winter 2023",
+        "title": "Networking Fundamentals",
+        "code": "NW-201-OL7",
+        "status": "Closed",
+        "isFavorite": false,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 8,
+        "thumbnail": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
+        "semester": "Spring 2023",
+        "title": "Python for Beginners",
+        "code": "PY-101-OL8",
+        "status": "Open",
+        "isFavorite": true,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 9,
+        "thumbnail": "https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg",
+        "semester": "Summer 2023",
+        "title": "JavaScript Fundamentals",
+        "code": "JS-201-OL9",
+        "status": "Closed",
+        "isFavorite": false,
+        "actions": ["edit", "delete", "share"]
+      },
+      {
+        "id": 10,
+        "thumbnail": "https://images.pexels.com/photos/3183173/pexels-photo-3183173.jpeg",
+        "semester": "Fall 2022",
+        "title": "Database Management Systems",
+        "code": "DB-301-OL10",
+        "status": "Open",
+        "isFavorite": true,
+        "actions": ["edit", "delete", "share"]
+      }
+    ]
+  }
+  

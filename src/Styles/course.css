@@ -1,0 +1,18 @@
+.semester-block {
+  bottom: -1.2rem;
+  left: 10px;
+}
+
+.bookmark {
+  right: 1rem;
+  top: 0.5rem;
+  background: white;
+}
+
+.dropdown-menu {
+  right: 2rem;
+  bottom: 0.5rem;
+}
+.three-dot{
+  cursor: pointer;
+}
