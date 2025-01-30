@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 import dots from "../assests/images/three-dots.png";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const MenuDropDown = ({ item }) => {
   const [isOpenMenu, setIsOpenMenu] = useState(0);
 
-  const handleClickOpenmenu = (id) => {
+  const handleClickOpenmenu = (id,e) => {
+    e.stopPropagation();
     setIsOpenMenu((prev) => (prev === id ? 0 : id));
   };
   return (
     <div
       className="flex justify-end items-center gap-2 ml-auto pr-4 relative three-dot"
-      onClick={() => handleClickOpenmenu(item.id)}
+      onClick={(e) => {
+        handleClickOpenmenu(item.id,e);
+      }}
     >
       <img src={dots} alt="three-dots" className="h-5 w-5 " />
       {isOpenMenu === item.id && (
@@ -20,7 +23,7 @@ const MenuDropDown = ({ item }) => {
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
-          tabindex="-1"
+          tabIndex="-1"
         >
           <div className="py-1" role="none">
             <a
@@ -57,8 +60,7 @@ const MenuDropDown = ({ item }) => {
   );
 };
 
-
 MenuDropDown.propTypes = {
-  item: PropTypes.object
+  item: PropTypes.object,
 };
 export default MenuDropDown;
